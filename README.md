@@ -10,6 +10,9 @@ This repository contains all the necessary files and instructions to turn your *
 - Step 3: Open YouTube, crank up the volume, and spam infinite tabs with the same video
 - The only way to stop it is a system restart
 
+  ![Pico-Ducky Demo](myPayladTest.gif)
+  
+
 ## 🚀 Getting Started
 1. Flash your Raspberry Pi Pico W with the CircuitPython firmware from this repo.
 2. Upload the provided files to the Pico’s CIRCUITPY drive.
@@ -23,5 +26,5 @@ For a detailed breakdown of how I built this project, along with some fun storie
 ---
 
 Have fun hacking and experimenting! If you have any questions or suggestions, feel free to open an issue or reach out. 
-![Pico-Ducky Demo](myPayladTest.gif)
+
 
