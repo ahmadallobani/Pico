@@ -10,7 +10,9 @@ This repository contains all the necessary files and instructions to turn your *
 - Step 3: Open YouTube, crank up the volume, and spam infinite tabs with the same video
 - The only way to stop it is a system restart
 
-[![Watch the video](https://img.youtube.com/vi/1jiClD-XB6o/0.jpg)](https://youtu.be/1jiClD-XB6o)
+  **[Demo](https://youtu.be/1jiClD-XB6o#)**
+
+[![Watch the video](https://img.youtube.com/vi/1jiClD-XB6o/0.jpg)]
   
 
 ## 🚀 Getting Started
