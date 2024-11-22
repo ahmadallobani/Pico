@@ -12,7 +12,7 @@ This repository contains all the necessary files and instructions to turn your *
 
 - A Demo can be found **[here](https://youtu.be/1jiClD-XB6o#)**
 
-[![Watch the video]([https://img.youtube.com/vi/1jiClD-XB6o/0.jpg](https://media.discordapp.net/attachments/1276262943213748339/1309600680234713189/image.png?ex=67422c2d&is=6740daad&hm=6ab1d1d6085726f512c1c3e008e597ab3f81c661a23629edd7fcc83c3b356d02&=&format=webp&quality=lossless&width=1575&height=853))]
+[![Watch the video](https://cdn.discordapp.com/attachments/1276262943213748339/1309600680234713189/image.png?ex=67422c2d&is=6740daad&hm=6ab1d1d6085726f512c1c3e008e597ab3f81c661a23629edd7fcc83c3b356d02&)]
   
 
 ## 🚀 Getting Started
