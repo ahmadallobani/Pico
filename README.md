@@ -1,13 +1,14 @@
 # Pico-Ducky DIY Project
 
-Welcome to the **Pico-Ducky** project! 🎉
+Welcome to the **Pico-Ducky** project! 
 
 This repository contains all the necessary files and instructions to turn your **Raspberry Pi Pico W** into a DIY Rubber Ducky. Forget the expensive hardware and have fun with this budget-friendly, highly customizable alternative!
 
-## 📦 What's Included?
-- Pre-configured CircuitPython files.
-- Libraries to enable HID (Human Interface Device) functionality.
-- A basic payload example to get you started.
+## 📦 Fun with Payload
+- Step 1: Download an image file..
+- Step 2: Create 200 copies of that image on the desktop.
+- Step 3: Open YouTube, crank up the volume, and spam infinite tabs with the same video
+- The only way to stop it is a system restart
 
 ## 🚀 Getting Started
 1. Flash your Raspberry Pi Pico W with the CircuitPython firmware from this repo.
@@ -21,5 +22,5 @@ For a detailed breakdown of how I built this project, along with some fun storie
 
 ---
 
-Have fun hacking and experimenting! If you have any questions or suggestions, feel free to open an issue or reach out. 😊
+Have fun hacking and experimenting! If you have any questions or suggestions, feel free to open an issue or reach out. 
 
