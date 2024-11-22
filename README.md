@@ -23,4 +23,5 @@ For a detailed breakdown of how I built this project, along with some fun storie
 ---
 
 Have fun hacking and experimenting! If you have any questions or suggestions, feel free to open an issue or reach out. 
+![Pico-Ducky Demo](myPayladTest.gif)
 
