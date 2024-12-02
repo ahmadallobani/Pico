@@ -11,9 +11,9 @@ This repository contains all the necessary files and instructions to turn your *
 - The only way to stop it is a system restart
 
 - A Demo can be found **[here](https://youtu.be/1jiClD-XB6o#)**
-
-![Watch the video]((https://github.com/ahmadallobani/Pico/blob/6d99523d1e0a9a65be2a00a40c2c24f415ea58a4/image.webp))
-  
+- 
+![the demo image](https://github.com/ahmadallobani/Pico/blob/6d99523d1e0a9a65be2a00a40c2c24f415ea58a4/image.webp?raw=true)
+ 
 
 ## 🚀 Getting Started
 1. Flash your Raspberry Pi Pico W with the CircuitPython firmware from this repo.
